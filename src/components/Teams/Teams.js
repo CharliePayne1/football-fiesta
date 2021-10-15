@@ -1,18 +1,13 @@
-const logTeam = (e) => {
-  console.log(e)
-  console.log(e.target.value)
-}
-
-const Teams = (props) => (
+const Teams = ({teams, pickTeam, setChosenTeam}) => (
 
   <div className="teams">
     <div>
       Pick your winning team:
-      <select className="pick-your-team">
-        {props.teams.map((team, index) => 
+      <select className="pick-your-team" onChange={(e) => setChosenTeam(e.target.value)}>
+        {teams.map((team, index) => 
         <option key={index} value={team}>{team}</option>)}
       </select>
-      <button onClick={(e) => logTeam(e)} className="choose">
+      <button onClick={(pickTeam)} className="choose">
         Choose
       </button>
     </div>

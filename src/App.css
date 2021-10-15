@@ -22,3 +22,14 @@
     background-color: #ff0000;
     border-radius: 5rem;
 }
+
+.scores {
+  margin: 1em;
+  margin-top: 3em
+}
+
+th, td {
+  padding: 15px;
+  border: black;
+  border-style: double;
+}

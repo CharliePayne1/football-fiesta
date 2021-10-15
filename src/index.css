@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url('https://www.wallpapertip.com/wmimgs/228-2280210_football-pitch-wallpaper.jpg');
 }
 
 code {
@@ -12,6 +13,3 @@ code {
     monospace;
 }
 
-* {
-  background-color: #33FFBC;;
-}
